@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>褚旭 (Xu Chu) - 个人主页</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        .highlight-name {
+            font-weight: 600;
+            color: #000;
+        }
+        .paper-title {
+            font-weight: 600;
+            color: #1a56db;
+        }
+        .tag {
+            display: inline-block;
+            padding: 0.125rem 0.375rem;
+            border-radius: 0.25rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 0.5rem;
+        }
+        .tag-ccf-a { background-color: #fee2e2; color: #991b1b; }
+        .tag-ccf-b { background-color: #e0e7ff; color: #3730a3; }
+        .tag-preprint { background-color: #f3f4f6; color: #374151; }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <div class="max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8 bg-white shadow-sm min-h-screen">
+        
+        <!-- 头部简介区 -->
+        <header class="flex flex-col md:flex-row items-center md:items-start gap-8 mb-12 border-b pb-8">
+            <!-- 头像占位，你可以将 src 替换为你自己的照片链接 -->
+            <div class="w-40 h-40 flex-shrink-0 rounded-full overflow-hidden border-4 border-gray-100 shadow-sm">
+                <img src="photo.jpg" alt="褚旭 (Xu Chu)" class="w-full h-full object-cover">
+            </div>
+            
+            <div class="flex-1 text-center md:text-left">
+                <h1 class="text-3xl font-bold text-gray-900 mb-2">褚旭 (Xu Chu)</h1>
+                <p class="text-lg text-gray-600 mb-4">北京大学 软件工程专业 硕士研究生</p>
+                <p class="text-gray-700 mb-4 text-justify">
+                    我是北京大学软件工程专业的三年级硕士生，师从<a href="#" class="text-blue-600 hover:underline">李伟平教授</a>。在此之前，我于2023年在武汉大学电子信息学院获得学士学位。
+                    截至目前，我已在 ACL、WWW、CVPR 等顶级会议上发表了 8 篇论文（含一作及共一）。
+                </p>
+                <p class="text-gray-700 mb-4 text-justify">
+                    <strong>研究兴趣：</strong>我的主要研究方向包括大型语言模型（LLMs）和视觉语言模型（VLMs）。最近一年，我致力于增强 LLMs 和 VLMs 的推理能力，以及优化工具调用能力和准确性。
+                </p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4 text-sm font-medium">
+                    <a href="chuxu@stu.pku.edu.cn" class="text-blue-600 hover:text-blue-800 flex items-center gap-1">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        Email
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=XdYJk5YAAAAJ&hl" class="text-blue-600 hover:text-blue-800 flex items-center gap-1">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                        Google Scholar
+                    </a>
+                    <a href="https://github.com/Hyalinesky" class="text-blue-600 hover:text-blue-800 flex items-center gap-1">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- 最新动态 -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span>🔥</span> 最新动态 (News)
+            </h2>
+            <ul class="space-y-3 text-gray-700">
+                <li class="flex gap-4">
+                    <span class="font-semibold text-gray-500 whitespace-nowrap">2026.04</span>
+                    <span>🎉🎉 我们有 3 篇论文被 <strong>ACL 2026</strong> 主会接收！</span>
+                </li>
+                <li class="flex gap-4">
+                    <span class="font-semibold text-gray-500 whitespace-nowrap">2026.02</span>
+                    <span>🎉🎉 我们的论文 "Residual Decoding: Mitigating Hallucinations in Large Vision-Language Models" 被 <strong>CVPR 2026</strong> 接收！</span>
+                </li>
+                <li class="flex gap-4">
+                    <span class="font-semibold text-gray-500 whitespace-nowrap">2026.01</span>
+                    <span>🎉🎉 我们的论文 "Accurate and Efficient Personalized Query Rewriting in Baidu Search" 被 <strong>WWW 2026</strong> 接收！</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 教育经历 -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span>📖</span> 教育经历 (Education)
+            </h2>
+            <div class="space-y-4 text-gray-700">
+                <div class="flex flex-col sm:flex-row justify-between">
+                    <div>
+                        <h3 class="font-bold text-lg">北京大学 (Peking University)</h3>
+                        <p>软件工程，硕士研究生。导师：李伟平 教授</p>
+                    </div>
+                    <div class="text-gray-500 font-medium sm:text-right">2023.09 – 至今</div>
+                </div>
+                <div class="flex flex-col sm:flex-row justify-between">
+                    <div>
+                        <h3 class="font-bold text-lg">武汉大学 (Wuhan University)</h3>
+                        <p>电子信息学院，工学学士</p>
+                    </div>
+                    <div class="text-gray-500 font-medium sm:text-right">2019.09 – 2023.07</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 实习经历 -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span>💻</span> 实习经历 (Internships)
+            </h2>
+            <div class="space-y-6 text-gray-700">
+                <div>
+                    <div class="flex flex-col sm:flex-row justify-between mb-1">
+                        <h3 class="font-bold text-lg">小红书 (Xiaohongshu) - Pevek基模团队</h3>
+                        <div class="text-gray-500 font-medium">2026.04 – 至今</div>
+                    </div>
+                    <p class="text-justify">主要负责研究搜索基模的后训练及强化学习。</p>
+                </div>
+                <div>
+                    <div class="flex flex-col sm:flex-row justify-between mb-1">
+                        <h3 class="font-bold text-lg">百度 (Baidu)</h3>
+                        <div class="text-gray-500 font-medium">2025.04 – 2026.01</div>
+                    </div>
+                    <p class="text-sm bg-blue-50 text-blue-800 inline-block px-2 py-1 rounded mb-2">星海人才计划</p>
+                    <p class="text-justify">参与 Search LLM 的预训练以及 Query Rewriting LLM 的强化学习后训练。主要负责压缩 LLM 的思维链，以降低查询重写大模型的推理延迟并提高准确性。</p>
+                </div>
+                <div>
+                    <div class="flex flex-col sm:flex-row justify-between mb-1">
+                        <h3 class="font-bold text-lg">蔚来 (NIO)</h3>
+                        <div class="text-gray-500 font-medium">2024.01 – 2024.05</div>
+                    </div>
+                    <p class="text-justify">参与 LLM 框架 BI Agent 的开发，主要负责基于大语言模型的意图理解、任务路由和推理工作。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 发表论文 -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span>📝</span> 精选论文 (Selected Publications)
+            </h2>
+            <p class="text-sm text-gray-500 mb-4">(* indicates equal contribution)</p>
+            
+            <div class="space-y-6">
+                <!-- Paper 1 -->
+                <div>
+                    <div class="paper-title">Towards Order Fairness: Mitigating LLMs Order Sensitivity through Dual Group Advantage Optimization <span class="tag tag-ccf-a">CCF A</span> <span class="tag tag-ccf-a">ACL 2026</span></div>
+                    <div class="text-gray-800 mt-1">
+                        <span class="highlight-name">Xu Chu</span>, Guanyu Wang, Zhijie Tan, Xinrong Chen, Ziyu Li, Tong Mo, Weiping Li
+                    </div>
+                    <div class="text-gray-600 text-sm italic mt-1">In Proc. of The 64rd Annual Meeting of the Association for Computational Linguistics (ACL).</div>
+                </div>
+
+                <!-- Paper 2 -->
+                <div>
+                    <div class="paper-title">RADO: Reasoning Audit-Driven Optimization for Rigorous Reasoning in High-Stakes Domains <span class="tag tag-ccf-a">CCF A</span> <span class="tag tag-ccf-a">ACL 2026</span></div>
+                    <div class="text-gray-800 mt-1">
+                        Zhijie Tan*, <span class="highlight-name">Xu Chu*</span>, Guanyu Wang, Ziyu Li, Weiping Li, Tong Mo
+                    </div>
+                    <div class="text-gray-600 text-sm italic mt-1">In Proc. of The 64rd Annual Meeting of the Association for Computational Linguistics (ACL).</div>
+                </div>
+
+                <!-- Paper 3 -->
+                <div>
+                    <div class="paper-title">MuSe: Multi-Stage Graph Reasoning via Vision-Language Models <span class="tag tag-ccf-a">CCF A</span> <span class="tag tag-ccf-a">ACL 2026</span></div>
+                    <div class="text-gray-800 mt-1">
+                        Guanyu Wang*, <span class="highlight-name">Xu Chu*</span>, Zhijie Tan, Xinrong Chen, Tong Mo, Weiping Li
+                    </div>
+                    <div class="text-gray-600 text-sm italic mt-1">In Proc. of The 64rd Annual Meeting of the Association for Computational Linguistics (ACL).</div>
+                </div>
+
+                <!-- Paper 4 -->
+                <div>
+                    <div class="paper-title">Accurate and Efficient Personalized Query Rewriting in Baidu Search <span class="tag tag-ccf-a">CCF A</span> <span class="tag tag-ccf-a">WWW 2026</span></div>
+                    <div class="text-gray-800 mt-1">
+                        <span class="highlight-name">Xu Chu</span>, Angela Li, Jiaming Zhang, Wei Li, Zhijie Tan, Dawei Yin, Shuaiqiang Wang, Daiting Shi
+                    </div>
+                    <div class="text-gray-600 text-sm italic mt-1">In Proc. of The 35th International World Wide Web Conference (WWW).</div>
+                </div>
+
+                <!-- Paper 5 -->
+                <div>
+                    <div class="paper-title">Residual Decoding: Mitigating Hallucinations in Large Vision-Language Models via History-Aware Residual Guidance <span class="tag tag-ccf-a">CCF A</span> <span class="tag tag-ccf-a">CVPR 2026</span></div>
+                    <div class="text-gray-800 mt-1">
+                        Xinrong Chen*, <span class="highlight-name">Xu Chu*</span>, Yingmin Qiu, Hengyuan Zhang, Jing Xiong, Shiyu Tang, Shuai Liu, Shaokang Yang, Cheng Yang, Hayden Kwok-Hay So, Ngai Wong
+                    </div>
+                    <div class="text-gray-600 text-sm italic mt-1">In Proc. of The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).</div>
+                </div>
+
+                <!-- Paper 6 -->
+                <div>
+                    <div class="paper-title">Domain$o1$s: Guiding LLM Reasoning for Explainable Answers in High-Stakes Domains <span class="tag tag-ccf-a">CCF A</span> <span class="tag tag-ccf-a">ACL 2025</span></div>
+                    <div class="text-gray-800 mt-1">
+                        <span class="highlight-name">Xu Chu*</span>, Zhijie Tan*, Hanlin Xue, Guanyu Wang, Tong Mo, Weiping Li
+                    </div>
+                    <div class="text-gray-600 text-sm italic mt-1">In Proc. of The 63rd Annual Meeting of the Association for Computational Linguistics (ACL).</div>
+                </div>
+
+                <!-- Paper 7 -->
+                <div>
+                    <div class="paper-title">Adaptive Spatiotemporal Augmentation for Improving Dynamic Graph Learning <span class="tag tag-ccf-b">CCF B</span> <span class="tag tag-ccf-b">ICASSP 2025</span></div>
+                    <div class="text-gray-800 mt-1">
+                        <span class="highlight-name">Xu Chu*</span>, Hanlin Xue*, Bingce Wang, Xiaoyang Liu, Weiping Li, Tong Mo, Tuoyu Feng, Zhijie Tan
+                    </div>
+                    <div class="text-gray-600 text-sm italic mt-1">In Proc. of ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 预印本 -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span>✏️</span> 预印本 (Preprints)
+            </h2>
+            <div class="space-y-6">
+                <!-- Preprint 1 -->
+                <div>
+                    <div class="paper-title text-gray-700">Qwen Look Again: Guiding Vision-Language Reasoning Models to Re-attention Visual Information <span class="tag tag-preprint">Preprint</span></div>
+                    <div class="text-gray-800 mt-1">
+                        <span class="highlight-name">Xu Chu*</span>, Xinrong Chen*, Guanyu Wang*, Zhijie Tan, Kui Huang, Wenyu Lv, Tong Mo, Weiping Li
+                    </div>
+                </div>
+
+                <!-- Preprint 2 -->
+                <div>
+                    <div class="paper-title text-gray-700">GraphSOS: Graph Sampling and Order Selection to Help LLMs Understand Graphs Better <span class="tag tag-preprint">Preprint</span></div>
+                    <div class="text-gray-800 mt-1">
+                        <span class="highlight-name">Xu Chu*</span>, Hanlin Xue*, Zhijie Tan, Bingce Wang, Tong Mo, Weiping Li
+                    </div>
+                </div>
+
+                <!-- Preprint 3 -->
+                <div>
+                    <div class="paper-title text-gray-700">Order matters: Exploring order sensitivity in multimodal large language models <span class="tag tag-preprint">Preprint</span></div>
+                    <div class="text-gray-800 mt-1">
+                        Zhijie Tan*, <span class="highlight-name">Xu Chu*</span>, Weiping Li, Tong Mo
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center text-gray-500 text-sm border-t pt-8 mt-8">
+            <p>&copy; 2026 Xu Chu. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
